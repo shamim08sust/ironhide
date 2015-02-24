@@ -9,7 +9,7 @@ namespace Mongolatlon.Models.Repository
     public class LatLonRepository : MongoRepository<LatLonEntity>
     {
         public LatLonRepository()
-            : base("tb_latlon")
+            : base("tb_lonlat")
         {
 
         }

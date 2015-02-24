@@ -16,9 +16,9 @@ namespace Mongolatlon.Controllers
     {
         private static LatLonRepository latlondb = new LatLonRepository();
 
-        [Route("api/main/shamim")]
+        [Route("api/main/insert")]
         [HttpGet]
-        public object insert(double lat, double lon)
+        public object insert(double lon, double lat)
         {
             LatLonEntity entity = new LatLonEntity();
             entity.Lat = lat;
@@ -29,10 +29,10 @@ namespace Mongolatlon.Controllers
         }
         [Route("api/main/find")]
         [HttpGet]
-        public object find(double lat, double lon)
+        public object find(double lon, double lat)
         {
-            QueryDocument entity = new QueryDocument { { "Lat", lat }, { "Lon", lon } };
-
+            QueryDocument entity = new QueryDocument {  { "Lon", lon },{ "Lat", lat } };
+           
             return latlondb.Find(entity);
         }
 
@@ -40,6 +40,9 @@ namespace Mongolatlon.Controllers
         [HttpGet]
         public object findall()
         {
+            var loc = latlondb.FindAll();
+            //LatLonEntity myDeserializedObj = (LatLonEntity)JavaScriptConvert.DeserializeObject(latlondb.FindAll(), typeof(LatLonEntity));
+           // List<LatLonEntity> myDeserializedObjList = (List<LatLonEntity>).Json.JsonConvert.DeserializeObject(latlondb.FindAll(), typeof(List<LatLonEntity>));
             return latlondb.FindAll();
         }
 
