@@ -131,6 +131,5 @@ D:\Visual Studio 13\gitrepo\ironhide\Mongolatlon\bin\Microsoft.Owin.Security.Goo
 D:\Visual Studio 13\gitrepo\ironhide\Mongolatlon\bin\Microsoft.Owin.Security.Twitter.xml
 D:\Visual Studio 13\gitrepo\ironhide\Mongolatlon\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
 D:\Visual Studio 13\gitrepo\ironhide\Mongolatlon\bin\System.Web.Http.Owin.xml
-D:\Visual Studio 13\gitrepo\ironhide\Mongolatlon\obj\Debug\Mongolatlon.csprojResolveAssemblyReference.cache
 D:\Visual Studio 13\gitrepo\ironhide\Mongolatlon\obj\Debug\Mongolatlon.dll
 D:\Visual Studio 13\gitrepo\ironhide\Mongolatlon\obj\Debug\Mongolatlon.pdb
