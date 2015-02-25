@@ -12,5 +12,6 @@ namespace Mongolatlon.Models.IRepository
        ObjectId Insert(K item);
        IEnumerable<K> Find(QueryDocument document);
        IEnumerable<K> FindAll();
+       ObjectId put(K item);
     }
 }

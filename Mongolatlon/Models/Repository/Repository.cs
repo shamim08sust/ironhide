@@ -13,13 +13,13 @@ namespace Mongolatlon.Models.Repository
         public MongoServer mongoServer;
         protected MongoDatabase mDb;
         protected MongoCollection<K> Mcollection;
+
         public Repository(string conn, string dbname, string collectionname)
         {
             MongoClient mongocl = new MongoClient(conn);
             mongoServer = mongocl.GetServer();
             mDb = mongoServer.GetDatabase(dbname);
             Mcollection = mDb.GetCollection<K>(collectionname);
-
         }
 
 
@@ -30,6 +30,16 @@ namespace Mongolatlon.Models.Repository
 
         public IEnumerable<K> Find(QueryDocument document)
         {
+           
+
+           // Mcollection.EnsureIndex("loc", "2d"); 
+
+            //mDb.RunCommand({ geoNear: "places",
+            //     near: [ -74, 40.74 ],
+            //     spherical: true
+            //   })
+           
+
             return Mcollection.Find(document);
         }
 
@@ -38,6 +48,15 @@ namespace Mongolatlon.Models.Repository
             return Mcollection.FindAll();
         }
 
-        
+        public ObjectId put(K item)
+        {
+            return Mcollection.Insert(item).Ok ? item.Id : ObjectId.Empty;
+        }
+        public IEnumerable<K> search(QueryDocument document)
+        {
+            
+            return Mcollection.Find(document);
+        }
+       
     }
 }

@@ -71,6 +71,7 @@ D:\Visual Studio 13\gitrepo\ironhide\Mongolatlon\bin\Mongolatlon.pdb
 D:\Visual Studio 13\gitrepo\ironhide\Mongolatlon\bin\Antlr3.Runtime.dll
 D:\Visual Studio 13\gitrepo\ironhide\Mongolatlon\bin\EntityFramework.dll
 D:\Visual Studio 13\gitrepo\ironhide\Mongolatlon\bin\EntityFramework.SqlServer.dll
+D:\Visual Studio 13\gitrepo\ironhide\Mongolatlon\bin\JsonServices.Web.dll
 D:\Visual Studio 13\gitrepo\ironhide\Mongolatlon\bin\Microsoft.AspNet.Identity.Core.dll
 D:\Visual Studio 13\gitrepo\ironhide\Mongolatlon\bin\Microsoft.AspNet.Identity.EntityFramework.dll
 D:\Visual Studio 13\gitrepo\ironhide\Mongolatlon\bin\Microsoft.AspNet.Identity.Owin.dll
@@ -100,6 +101,7 @@ D:\Visual Studio 13\gitrepo\ironhide\Mongolatlon\bin\System.Web.WebPages.Deploym
 D:\Visual Studio 13\gitrepo\ironhide\Mongolatlon\bin\System.Web.WebPages.dll
 D:\Visual Studio 13\gitrepo\ironhide\Mongolatlon\bin\System.Web.WebPages.Razor.dll
 D:\Visual Studio 13\gitrepo\ironhide\Mongolatlon\bin\WebGrease.dll
+D:\Visual Studio 13\gitrepo\ironhide\Mongolatlon\bin\JsonServices.dll
 D:\Visual Studio 13\gitrepo\ironhide\Mongolatlon\bin\MongoDB.Bson.xml
 D:\Visual Studio 13\gitrepo\ironhide\Mongolatlon\bin\MongoDB.Driver.xml
 D:\Visual Studio 13\gitrepo\ironhide\Mongolatlon\bin\Newtonsoft.Json.xml
@@ -129,8 +131,5 @@ D:\Visual Studio 13\gitrepo\ironhide\Mongolatlon\bin\Microsoft.Owin.Security.Goo
 D:\Visual Studio 13\gitrepo\ironhide\Mongolatlon\bin\Microsoft.Owin.Security.Twitter.xml
 D:\Visual Studio 13\gitrepo\ironhide\Mongolatlon\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
 D:\Visual Studio 13\gitrepo\ironhide\Mongolatlon\bin\System.Web.Http.Owin.xml
-D:\Visual Studio 13\gitrepo\ironhide\Mongolatlon\obj\Debug\Mongolatlon.csprojResolveAssemblyReference.cache
 D:\Visual Studio 13\gitrepo\ironhide\Mongolatlon\obj\Debug\Mongolatlon.dll
 D:\Visual Studio 13\gitrepo\ironhide\Mongolatlon\obj\Debug\Mongolatlon.pdb
-D:\Visual Studio 13\gitrepo\ironhide\Mongolatlon\bin\JsonServices.Web.dll
-D:\Visual Studio 13\gitrepo\ironhide\Mongolatlon\bin\JsonServices.dll
