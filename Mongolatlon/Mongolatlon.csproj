@@ -217,7 +217,6 @@
     <Compile Include="Models\Entities\LatLonEntity.cs" />
     <Compile Include="Models\Entities\MongoEntity.cs" />
     <Compile Include="Models\IdentityModels.cs" />
-    <Compile Include="Models\IEntities\ILatLonEntity.cs" />
     <Compile Include="Models\IEntities\IMongoEntity.cs" />
     <Compile Include="Models\IRepository\IRepository.cs" />
     <Compile Include="Models\Repository\LatLonRepository.cs" />
